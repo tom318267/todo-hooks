@@ -13,7 +13,7 @@ export default (initialTodos) => {
     removeTodo: todoId => {
       // filter out removed todo
       const updatedTodos = todos.filter(todo => todo.id !== todoId);
-      // cal setTodos with new todos array
+      // call setTodos with new todos array
       setTodos(updatedTodos);
     },
     toggleTodo: todoId => {
